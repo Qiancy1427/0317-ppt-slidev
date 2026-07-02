@@ -11,6 +11,83 @@ monaco: true
 lineNumbers: false
 ---
 
+<style>
+.slidev-layout {
+  font-size: 0.75rem !important;
+}
+.slidev-layout h1 {
+  font-size: 1.5rem !important;
+}
+.slidev-layout h2 {
+  font-size: 1.05rem !important;
+}
+.slidev-layout h3 {
+  font-size: 0.85rem !important;
+}
+.slidev-layout p,
+.slidev-layout li {
+  font-size: 0.75rem !important;
+  line-height: 1.2 !important;
+}
+.slidev-layout .rounded {
+  padding: 0.1rem 0.2rem !important;
+}
+.slidev-layout .p-4 {
+  padding: 0.15rem 0.25rem !important;
+}
+.slidev-layout .p-3 {
+  padding: 0.1rem 0.15rem !important;
+}
+.slidev-layout .p-6 {
+  padding: 0.2rem 0.3rem !important;
+}
+.slidev-layout .mt-4 {
+  margin-top: 0.35rem !important;
+}
+.slidev-layout .mt-6 {
+  margin-top: 0.45rem !important;
+}
+.slidev-layout .mt-8 {
+  margin-top: 0.55rem !important;
+}
+.slidev-layout .mt-12 {
+  margin-top: 0.7rem !important;
+}
+.slidev-layout .gap-6 {
+  gap: 0.3rem !important;
+}
+.slidev-layout .gap-4 {
+  gap: 0.2rem !important;
+}
+.slidev-layout .gap-3 {
+  gap: 0.15rem !important;
+}
+.slidev-layout .text-3xl {
+  font-size: 1.2rem !important;
+}
+.slidev-layout .text-2xl {
+  font-size: 1.0rem !important;
+}
+.slidev-layout .text-lg {
+  font-size: 0.82rem !important;
+}
+.slidev-layout .text-sm {
+  font-size: 0.68rem !important;
+}
+.slidev-layout .text-xs {
+  font-size: 0.58rem !important;
+}
+.slidev-layout .tracking-wider {
+  letter-spacing: 0.03em !important;
+}
+.slidev-layout .tracking-widest {
+  letter-spacing: 0.04em !important;
+}
+.slidev-layout .leading-20 {
+  line-height: 1.8rem !important;
+}
+</style>
+
 # 学长学姐进班交流
 
 **经验分享 · 高三复习全攻略**

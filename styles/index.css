@@ -73,3 +73,18 @@
 .slidev-layout .leading-20 {
   line-height: 2.2rem !important;
 }
+.slidev-layout .text-sm {
+  font-size: 0.68rem !important;
+}
+.slidev-layout .text-xs {
+  font-size: 0.58rem !important;
+}
+.slidev-layout .tracking-wider {
+  letter-spacing: 0.03em !important;
+}
+.slidev-layout .tracking-widest {
+  letter-spacing: 0.04em !important;
+}
+.slidev-layout .leading-20 {
+  line-height: 1.8rem !important;
+}
