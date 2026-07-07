@@ -5,7 +5,14 @@
         "EF.md",
         "2.md",
         "1.md",
-        "0621.md"
+        "0621.md",
+        "场地安全.md"
     ],
-    "slidev.port": 3030
+    "slidev.port": 3030,
+    "chat.tools.terminal.autoApprove": {
+        "/^cd /home/lfw/slidev && python3 -c \"\nfrom zipfile import ZipFile\nfrom xml\\.etree\\.ElementTree import XML\nimport re\n\ndocx_path = '/home/lfw/slidev/场地安全\\.docx'\ntry:\n    with ZipFile\\(docx_path\\) as z:\n        xml_content = z\\.read\\('word/document\\.xml'\\)\n        root = XML\\(xml_content\\)\n        ns = \\{'w': 'http://schemas\\.openxmlformats\\.org/wordprocessingml/2006/main'\\}\n        paragraphs = \\[\\]\n        for p in root\\.iter\\('\\{http://schemas\\.openxmlformats\\.org/wordprocessingml/2006/main\\}p'\\):\n            texts = \\[\\]\n            for t in p\\.iter\\('\\{http://schemas\\.openxmlformats\\.org/wordprocessingml/2006/main\\}t'\\):\n                if t\\.text:\n                    texts\\.append\\(t\\.text\\)\n            if texts:\n                paragraphs\\.append\\(''\\.join\\(texts\\)\\)\n        print\\('\\\\n'\\.join\\(paragraphs\\)\\)\nexcept Exception as e:\n    print\\(f'Error: \\{e\\}'\\)\n\"\n$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
 }
